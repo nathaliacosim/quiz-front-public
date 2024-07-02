@@ -14,6 +14,13 @@ Este é um projeto de quiz de perguntas e respostas desenvolvido utilizando Nest
 - **Frontend**: ReactJS, TypeScript, Material-UI para componentes visuais.
 - **Autenticação**: JWT (JSON Web Tokens) para autenticação de usuários.
 
-## Contribuição
+## Como executar:
 
-Sinta-se à vontade para contribuir com este projeto enviando pull requests. Antes de contribuir, por favor, discuta as mudanças que deseja fazer através de issues.
+- **Atenção: esse projeto funciona juntamente com o https://github.com/luishscarvalho/progweb-quiz-back, certifique-se que tenha os dois baixados no mesmo diretório e os devidos pacotes do node.js**
+
+1. Crie um arquivo chamado .env. Nesse arquivo utilize o seguinte usuário:<br>
+DB_USER=luishcarvalho<br>
+DB_PASSWORD=torresmo123<br>
+JWT_SECRET= _Gere qualquer token json web e adicione-o aqui_<br><br>
+2. Utilizando o comando "npm start" inicie o backend
+3. Após o inicio do backend, inicie o front-end com o comando "npm run dev" 
