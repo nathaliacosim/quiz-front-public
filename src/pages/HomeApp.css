@@ -1,0 +1,26 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category-link {
+  font-size: 20px;
+  height: 80px;
+  width: 400px;
+  align-content: center;
+  margin: 20px;
+  text-align: center;
+  text-align: center;
+  background-color: #050a30; /* Cor de fundo */
+  text-decoration: none; /* Remover decoração de sublinhado */
+  color: white; /* Cor do texto */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 5px; /* Cantos arredondados */
+  transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+
+  /* Estilo quando o mouse passa por cima */
+  &:hover {
+    background-color: #ddd;
+  }
+}
